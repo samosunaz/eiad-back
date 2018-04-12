@@ -1,0 +1,14 @@
+{
+    "name": "samosunaz/eiad-back",
+    "description": "EIAD Labs Reservation System Backend",
+    "type": "project",
+    "require": {
+        "slim/slim": "^3.0",
+        "illuminate/database": "^5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Eiad\\": "src/Eiad/"
+        }
+    }
+}
